@@ -1,0 +1,25 @@
+header{
+    height: 100vh;
+    width: 100%;
+    /*add colors*/
+    /*background-image: linear-gradient(green,pink);*/
+    /*background-image: radial-gradient(orange,red);*/
+    /*radial if change width from 100% is oval to 50% it will be roun*/
+
+
+    /*add-image*/
+    /*first add 2 images*/
+    background-image: url("pictures/summer.jpeg"),url("pictures/spring.jpeg"),url("pictures/winter.jpg"),url("pictures/fall.jpg");
+    background-size:25% 600px, 50% 600px,75% 600px, 100% 600px;
+    background-repeat: no-repeat;
+}
+
+.big-hero{
+    height: 100vh;
+    width: 100%;
+background-image: url("pictures/moon-removebg-preview\ \(1\).png"),url("pictures/space.jpg");
+background-repeat: no-repeat;
+background-size: 500px, cover;
+
+
+}
